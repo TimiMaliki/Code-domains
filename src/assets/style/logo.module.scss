@@ -2,8 +2,24 @@
 
 .logo{
     @include smallDevice {
-        height: 200px;
+        height: 600px;
         margin-top: 7rem;
         border: 2px solid red;
+    }
+    .logoIcon{
+        @include smallDevice {
+          width: 80px;
+          height: 80px;
+          border-radius: 3rem;
+          background: #000;
+          margin-left: 8rem;
+          margin-bottom: 1rem;
+        }
+    }
+    .logoText{
+        @include smallDevice {
+            display: grid;
+            text-align: center;
+        }
     }
 }
