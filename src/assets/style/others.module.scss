@@ -1,0 +1,63 @@
+@import './media.scss';
+
+.others {
+    @include smallDevice {
+        height: 800px;
+        margin-top: 1rem;
+    }
+
+
+    .othersProductImg {
+        @include smallDevice {
+            height: 200px;
+        }
+    }
+
+    .othersProductDetails {
+        @include smallDevice {
+            height: 300px;
+            text-align: center;
+        }
+    }
+
+    .othersText {
+        @include smallDevice {
+            margin-top: 1rem;
+            text-align: center;
+        }
+    }
+    .startshopping{
+        @include smallDevice {
+            margin-top: 2rem;
+            width: 180px;
+            height: 45px;
+            margin-left: 4rem;
+            border-radius: 14px;
+            background: #000;
+            color: #fff;
+        }
+    }
+
+    .startshoppingText{
+        @include smallDevice {
+            transform: translateY(10px);
+        }
+    }
+    .othersShoeOne{
+        @include smallDevice {
+            height: 300px;
+        }
+    }
+    .othersShoeOneText{
+        @include smallDevice {
+            text-align: center;
+        }
+    }
+    .othersShoeOneImg{
+        @include smallDevice {
+            height: 150px;
+            margin-top: 1rem;
+        }
+    }
+
+}

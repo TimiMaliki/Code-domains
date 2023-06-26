@@ -1,0 +1,50 @@
+@import './media.scss';
+
+.categories{
+    @include smallDevice {
+        height: 50px;
+
+        .category{
+            @include smallDevice {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 1rem;
+                font-size: 16px;
+
+                h2{
+                    font-size: 14px;
+                }
+            }
+        }
+         .categoryitems{
+             @include smallDevice {
+                 display: flex;
+                 margin-top: 1rem;
+                 justify-content: space-between;
+             }
+         }
+
+         .categorywrap{
+             @include smallDevice {
+                 display: grid;
+                 margin-top: 1rem;
+             }
+         }
+         .categoryitem{
+           @include smallDevice {
+               width: 60px;
+             height: 60px;
+             border-radius: 50%;
+             background: #000;
+             } 
+        }
+        .categorytext{
+            @include smallDevice {
+             margin-left: 1rem;
+             font-size: 12px;
+              } 
+         }
+    }
+    
+
+}

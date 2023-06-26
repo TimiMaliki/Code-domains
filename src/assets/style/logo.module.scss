@@ -1,0 +1,9 @@
+@import './media.scss';
+
+.logo{
+    @include smallDevice {
+        height: 200px;
+        margin-top: 7rem;
+        border: 2px solid red;
+    }
+}

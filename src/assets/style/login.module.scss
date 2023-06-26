@@ -1,0 +1,19 @@
+@import './media.scss';
+
+.login{
+     @include smallDevice {
+       display: flex;
+       justify-content: center;
+    }
+
+    button{
+        @include smallDevice {
+            width: 170px;
+            height: 35px;
+            border-radius: 15px;
+            border: none;
+            background: #000;
+            color: #fff;
+        }  
+    }
+}
