@@ -1,1 +1,41 @@
 @import './media.scss';
+
+.Subscribe {
+
+    @include smallDevice {
+        height: 300px;
+        border: 2px solid red;
+        place-content: center;
+        text-align: center;
+    }
+
+    h2 {
+        @include smallDevice {
+            margin-bottom: 2rem;
+        }
+    }
+
+    .Sub {
+        @include smallDevice {
+           display: flex;
+           margin-top: 3rem;
+           margin-left: 1rem;
+        }
+    }
+    .subs{
+        @include smallDevice {
+            width: 100px;
+            height: 30px;
+            background: #000;
+            color: #fff;
+            border-radius: 2px;
+            border: none;
+            p{
+                @include smallDevice {
+                    margin-top: 0.3rem;
+                 }
+            }
+         }
+    }
+
+}
