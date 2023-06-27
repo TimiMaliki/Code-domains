@@ -8,7 +8,8 @@ import Login from './components/Login'
 import Otherproduct from './components/Otherproduct'
 import Logo from './components/Logo'
 import Subscribe from './components/Subscribe'
-import  Myfootercomponent from './components/Myfootercomponent '
+import Footer from './components/Footer'
+
 
 
 function App() {
@@ -29,7 +30,8 @@ function App() {
       <Otherproduct/>
       <Logo/>
       <Subscribe/>
-      <Myfootercomponent/>
+      <Footer/>
+    
     </div>
   )
 }
