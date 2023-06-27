@@ -1,6 +1,6 @@
 import footer from '../assets/style/footer.module.scss'
 
-const Footercomponent = () => {
+const Footer = () => {
   return (
     <div className={footer.footer}>
 
@@ -8,4 +8,4 @@ const Footercomponent = () => {
   )
 }
 
-export default Footercomponent
+export default Footer
