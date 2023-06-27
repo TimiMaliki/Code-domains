@@ -1,0 +1,11 @@
+
+
+const Myfootercomponent = () => {
+  return (
+    <div>
+        
+    </div>
+  )
+}
+
+export default Myfootercomponent
