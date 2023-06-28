@@ -2,8 +2,10 @@
 
 .copy {
    @include smallDevice {
-      margin-top: 12rem;
+      margin-top: -2rem;
       height: 100px;
+      background: #000;
+      color: #fff;
    }
 
 

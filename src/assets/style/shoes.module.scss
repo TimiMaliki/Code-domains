@@ -4,6 +4,7 @@
 
     @include smallDevice {
         height: 300px;
+
         h2 {
             font-size: 14px;
         }
@@ -36,6 +37,14 @@
             border-radius: 9px;
             margin-top: 2rem;
         }
+
+        img {
+            @include smallDevice {
+                width: 70px;
+                height: 70px;
+                border-radius: 9px;
+            }
+        }
     }
 
     .cartDetailContainer {
@@ -58,18 +67,33 @@
         }
     }
 
-    .cartBrandName{
+    .cartBrandName {
         @include smallDevice {
-             text-align: center;
-             font-size: 12px;
+            text-align: center;
+            font-size: 12px;
         }
     }
-    .cartRateGrid{
+
+    .cartRateGrid {
         @include smallDevice {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+            display: flex;
+            justify-content: space-between;
+        }
     }
-}
+
+    .line {
+        @include smallDevice {
+            width: 1px;
+            height: 12px;
+            background: #000;
+        }
+    }
+
+    .cartPrice {
+        @include smallDevice {
+            margin-top: 1rem;
+        }
+    }
 
 
 }

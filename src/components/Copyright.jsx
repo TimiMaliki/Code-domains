@@ -6,7 +6,7 @@ const Copyright = () => {
 
     <div className={copy.border}>
   </div>
-  <p>   Maliki 2023 all right reserved </p>
+  <p>   &copy;  Maliki 2023 all right reserved </p>
     </div>
   )
 }

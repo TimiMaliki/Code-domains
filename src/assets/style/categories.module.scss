@@ -30,18 +30,17 @@
                  display: grid;
                  margin-top: 1rem;
              }
-         }
-         .categoryitem{
-           @include smallDevice {
-               width: 60px;
-             height: 60px;
-             border-radius: 50%;
-             background: #000;
-             } 
-        }
+         } 
+             img {
+                @include smallDevice {
+                    width: 40px;
+                    height: 40px;
+                    border-radius: 50%;
+                }
+            }
+        
         .categorytext{
             @include smallDevice {
-             margin-left: 1rem;
              font-size: 12px;
               } 
          }

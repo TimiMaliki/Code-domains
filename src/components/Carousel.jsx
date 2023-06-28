@@ -1,10 +1,10 @@
 import carousel from '../assets/style/carousel.module.scss'
-import pinkwatch from '../assets/img/carousel/watchpink.jpg'
+import blacksmartwatch from '../assets/img/carousel/blacksmartwatch.jpg'
 
 const Carousel=() => {
   return (
       <div className={carousel.carouselContainer}>
-          <img src={pinkwatch} />
+          <img src={blacksmartwatch} />
       </div>
     
 

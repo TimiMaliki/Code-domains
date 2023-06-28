@@ -5,11 +5,13 @@ const Footer = () => {
         <div className={myfooter.footer}>
 
             <div className={myfooter.brandAndLogos}>
-                <h2>Maliki</h2>
-                <p>Lorem ipsum dolor sit amet
-                    consectetur adipisicing elit. Dolorum expedita recusandae nostrum.</p>
+                FIND A STORE
+                NIKE JOURNAL
+                BECOME A MEMBER
+                FEEDBACK
+                PROMO CODES
 
-                <div className={myfooter.logo}>
+                {/* <div className={myfooter.logo}>
                     <div className={myfooter.logoOne}>
                     </div>
                     <div className={myfooter.logoOne}>
@@ -18,7 +20,7 @@ const Footer = () => {
                     </div>
                     <div className={myfooter.logoOne}>
                     </div>
-                </div>
+                </div> */}
             </div>
 
 
@@ -32,16 +34,16 @@ const Footer = () => {
             </div>
 
 
-                <div className={myfooter.brandAndLogos}>
-                    <h2>Maliki</h2>
-                    <p>
-                        +2348102850113
-                    </p>
-                    <p>
-                        N0 4 Odin Nwankwo Street
-                    </p>
+            <div className={myfooter.brandAndLogos}>
+                <h2>Maliki</h2>
+                <p>
+                    +2348102850113
+                </p>
+                <p>
+                    N0 4 Odin Nwankwo Street
+                </p>
 
-
+                {/* 
                     <div className={myfooter.logo}>
                         <div className={myfooter.logoOne}>
                         </div>
@@ -51,10 +53,10 @@ const Footer = () => {
                         </div>
                         <div className={myfooter.logoOne}>
                         </div>
-                    </div>
-                </div>
+                    </div> */}
+            </div>
 
-        
+
 
             <div className={myfooter.link}>
                 <ul>
@@ -64,7 +66,6 @@ const Footer = () => {
                     <li><a href="">Ladies wear</a></li>
                 </ul>
             </div>
-
 
 
         </div>

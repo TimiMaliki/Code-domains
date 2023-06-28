@@ -5,16 +5,16 @@
         height: 600px;
         margin-top: 7rem;
     }
-    .logoIcon{
-        @include smallDevice {
-          width: 80px;
-          height: 80px;
-          border-radius: 3rem;
-          background: #000;
-          margin-left: 8rem;
-          margin-bottom: 1rem;
+        img {
+            @include smallDevice {
+                width: 50px;
+                height: 50px;
+                border-radius: 3rem;
+                margin-left: 8rem;
+                margin-bottom: 1rem;
+            }
         }
-    }
+
     .logoText{
         @include smallDevice {
             display: grid;

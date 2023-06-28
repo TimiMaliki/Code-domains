@@ -12,7 +12,14 @@
             height: 200px;
         }
 
-        
+       
+        img {
+            @include smallDevice {
+                width: 315px;
+                height: 200px;
+                border-radius: 9px;
+            }
+        }
     }
 
     .othersProductDetails {
@@ -48,6 +55,13 @@
     .othersShoeOne{
         @include smallDevice {
             height: 300px;
+        }
+        & img{
+            @include smallDevice {
+                width: 315px;
+                height: 200px;
+                border-radius: 9px;
+            }
         }
     }
     .othersShoeOneText{
