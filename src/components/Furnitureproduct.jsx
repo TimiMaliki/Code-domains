@@ -1,6 +1,13 @@
 import furniture from '../assets/style/furniture.module.scss'
 import Productheader from './Productheader'
 import Producttext from './Producttext'
+import img1 from '../assets/img/furniture/f1.jpg'
+import img2 from '../assets/img/furniture/f2.jpg'
+import img3 from '../assets/img/furniture/f3.jpg'
+import img4 from '../assets/img/furniture/f4.jpg'
+import { FaStar } from 'react-icons/fa'
+import { FaArrowLeft } from 'react-icons/fa'
+import { FaArrowRight } from 'react-icons/fa'
 
 
 const Furnitureproduct = () => {
@@ -8,31 +15,35 @@ const Furnitureproduct = () => {
     <div className={furniture.furniture}>
     <div className={furniture.furnitureCategory}>
         <Productheader title="Furniture Collection" />
-        <Producttext text="see all" />
+        <Producttext text=""/>   <Producttext text="" /> <><><><><></></></></></><FaArrowLeft></FaArrowLeft>  <FaArrowRight></FaArrowRight>
     </div>
 
 
 
     <div className={furniture.cartContainer}>
                 <div className={furniture.cart}>
+                    <img src={img1} alt="" />
                     <div className={furniture.cartIcon}>
                     </div>
                 </div>
 
 
                 <div className={furniture.cart}>
+                <img src={img2} alt="" />
                     <div className={furniture.cartIcon}>
                     </div>
                 </div>
 
 
                 <div className={furniture.cart}>
+                <img src={img3} alt="" />
                     <div className={furniture.cartIcon}>
                     </div>
                 </div>
 
 
                 <div className={furniture.cart}>
+                <img src={img4} alt="" />
                     <div className={furniture.cartIcon}>
                     </div>
                 </div>
@@ -43,23 +54,23 @@ const Furnitureproduct = () => {
 
                 <div className={furniture.cartDetails}>
                     <div className={furniture.cartName}>
-                        <h4>Product name will be here</h4>
+                        <h4>Grand Dad Chair</h4>
                     </div>
                     <div className={furniture.cartBrandName}>
-                        <h5>Maliki</h5>
+                        <h5>oldies</h5>
                     </div>
                     <div className={furniture.cartRateGrid}>
 
                         <div className={furniture.cartStar}>
-                            4.3
+                        <FaStar></FaStar>       1.4
                         </div>
-
+                        <div className={furniture.line}></div>  
                         <div className={furniture.cartSold}>
-                            7000
+                            120
                         </div>
                     </div>
                     <div className={furniture.cartPrice}>
-                            7000
+                            $800
                         </div>
                 </div>
 
@@ -67,23 +78,23 @@ const Furnitureproduct = () => {
 
                 <div className={furniture.cartDetails}>
                     <div className={furniture.cartName}>
-                        <h4>Product name will be here</h4>
+                        <h4>Oak rock chair</h4>
                     </div>
                     <div className={furniture.cartBrandName}>
-                        <h5>Maliki</h5>
+                        <h5>rockies</h5>
                     </div>
                     <div className={furniture.cartRateGrid}>
 
                         <div className={furniture.cartStar}>
-                            4.3
+                        <FaStar></FaStar>       1.0
                         </div>
-
+                        <div className={furniture.line}></div>  
                         <div className={furniture.cartSold}>
-                            7000
+                            130
                         </div>
                     </div>
                     <div className={furniture.cartPrice}>
-                            7000
+                            $500
                         </div>
                 </div>
 
@@ -91,23 +102,23 @@ const Furnitureproduct = () => {
 
                 <div className={furniture.cartDetails}>
                     <div className={furniture.cartName}>
-                        <h4>Product name will be here</h4>
+                        <h4>My dad's Bench</h4>
                     </div>
                     <div className={furniture.cartBrandName}>
-                        <h5>Maliki</h5>
+                        <h5>Benny</h5>
                     </div>
                     <div className={furniture.cartRateGrid}>
 
                         <div className={furniture.cartStar}>
-                            4.3
+                        <FaStar></FaStar>   2.0  
                         </div>
-
+                        <div className={furniture.line}></div>  
                         <div className={furniture.cartSold}>
-                            7000
+                            50
                         </div>
                     </div>
                     <div className={furniture.cartPrice}>
-                            7000
+                            $100
                         </div>
                 </div>
 
@@ -116,24 +127,24 @@ const Furnitureproduct = () => {
 
                 <div className={furniture.cartDetails}>
                     <div className={furniture.cartName}>
-                        <h4>Product name will be here</h4>
+                        <h4>Massage Chair</h4>
                     </div>
                     <div className={furniture.cartBrandName}>
-                        <h5>Maliki</h5>
+                        <h5>Markie</h5>
                     </div>
                     <div className={furniture.cartRateGrid}>
 
                         <div className={furniture.cartStar}>
-                            4.3
+                        <FaStar></FaStar>   3.2
                         </div>
-
+                        <div className={furniture.line}></div>
                         <div className={furniture.cartSold}>
-                            7000
+                            1000
                         </div>
                     </div>
 
                     <div className={furniture.cartPrice}>
-                            7000
+                            $700
                         </div>
                 </div>
 

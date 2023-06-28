@@ -1,5 +1,6 @@
 import others from '../assets/style/others.module.scss'
 
+
 const Otherproduct = () => {
     return (
         <div className={others.others}>
