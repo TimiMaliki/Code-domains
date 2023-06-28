@@ -1,18 +1,85 @@
-@import './media.scss'; 
+@import './media.scss';
 
-*{
+* {
     margin: 0;
     padding: 0;
     // box-sizing: border-box;
 }
-body{
+
+body {
     width: 100%;
-    height: 120vh; 
+    height: 120vh;
 
 }
-nav{
-    border: 2px solid red;
+
+nav {
     height: 100px;
+
+.brandNameAndLogins {
+    @include smallDevice {
+        display: flex;
+        justify-content: center;
+    }
 }
-    
+
+h2 {
+    @include smallDevice {
+        font-size: 19px;
+        margin-top: 0.4rem;
+        margin-right: 3rem;
+    }
+}
+
+input {
+    @include smallDevice {
+        width: 100px;
+    }
+}
+
+.Sub {
+    @include smallDevice {
+        display: flex;
+        margin-left: 1rem;
+        margin-top: 0.2rem;
+    }
+}
+
+.subs {
+    @include smallDevice {
+        width: 80px;
+        height: 30px;
+        background: #000;
+        color: #fff;
+        border-radius: 2px;
+        border: none;
+
+        p {
+            @include smallDevice {
+                margin-top: 0.3rem;
+            }
+        }
+    }
+}
+
+ul {
+    @include smallDevice {
+        display: grid;
+        grid-template-columns: 100px 100px 100px;
+        list-style: none;
+        line-height: 2rem;
+       text-align: center;
+    }
+
+    a{
+        @include smallDevice {
+          text-decoration: none;
+          color: #000;
+          font-size: 14px;
+          cursor: pointer;
+        }
+    }
+}
+
+
+}
 

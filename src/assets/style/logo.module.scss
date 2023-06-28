@@ -4,7 +4,6 @@
     @include smallDevice {
         height: 600px;
         margin-top: 7rem;
-        border: 2px solid red;
     }
     .logoIcon{
         @include smallDevice {

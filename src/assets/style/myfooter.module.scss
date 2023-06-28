@@ -1,0 +1,54 @@
+@import './media.scss';
+
+
+.footer {
+
+    @include smallDevice {
+        height: 300px;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .brandAndLogos {
+        @include smallDevice {
+            margin-top: 2rem;
+            line-height: 2rem;
+            height: 240px;
+        }
+    }
+
+    .logo {
+        @include smallDevice {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 2rem;
+        }
+    }
+
+    .logoOne {
+        @include smallDevice {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            background: #000;
+        }
+    }
+
+    .link {
+        @include smallDevice {
+            margin-top: 1rem;
+            line-height: 3rem;
+            text-align: end;
+            height: 240px;
+        }
+    }
+    ul{
+        list-style: none;
+    }
+    a{
+        cursor: pointer;
+        text-decoration: none;
+        list-style: none;
+        color: #000;
+    }
+}
