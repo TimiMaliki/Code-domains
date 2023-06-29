@@ -1,40 +1,46 @@
 @import './media.scss';
 
 .Subscribe {
+    margin-top: 28rem;
+    height: 300px;
+    place-content: center;
+    text-align: center;
+    background: #f5f5f5;
 
-    @include smallDevice {
-        height: 300px;
-        place-content: center;
-        text-align: center;
+    input {
+        width: 300px;
+        height: 50px;
     }
 
-    h2 {
-        @include smallDevice {
-            margin-bottom: 2rem;
+    .SubText {
+        margin-top: 23rem;
+
+        h2 {
+            margin-bottom: 3rem;
+            font-size: 29px;
+            letter-spacing: 3px;
         }
     }
 
     .Sub {
-        @include smallDevice {
-           display: flex;
-           margin-top: 3rem;
-           margin-left: 1rem;
-        }
+        display: flex;
+        margin-top: 3rem;
+        margin-left: 1rem;
+        justify-content: center;
     }
-    .subs{
-        @include smallDevice {
-            width: 100px;
-            height: 30px;
-            background: #000;
-            color: #fff;
-            border-radius: 2px;
-            border: none;
-            p{
-                @include smallDevice {
-                    margin-top: 0.3rem;
-                 }
-            }
-         }
+
+    .subs {
+        width: 150px;
+        height: 52px;
+        background: purple;
+        color: #fff;
+        border-radius: 2px;
+        border: none;
+        cursor: pointer;
+
+        p {
+            margin-top: 0.9rem;
+        }
     }
 
 }

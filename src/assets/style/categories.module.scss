@@ -1,50 +1,45 @@
 @import './media.scss';
 
-.categories{
-    @include smallDevice {
-        height: 50px;
+.categories {
+    margin-top: -20rem;
+    height: 400px;
 
-        .category{
-            @include smallDevice {
-                display: flex;
-                justify-content: space-between;
-                margin-top: 1rem;
-                font-size: 16px;
 
-                h2{
-                    font-size: 14px;
-                }
-            }
+    .category {
+        display: flex;
+        justify-content: space-between;
+        font-size: 16px;
+
+        h2 {
+            font-size: 24px;
+            margin-bottom: 5rem;
         }
-         .categoryitems{
-             @include smallDevice {
-                 display: flex;
-                 margin-top: 1rem;
-                 justify-content: space-between;
-                 background: #EEEEFF;
-             }
-         }
-
-         .categorywrap{
-             @include smallDevice {
-                 display: grid;
-                 margin-top: 1rem;
-             }
-         } 
-             img {
-                @include smallDevice {
-                    width: 40px;
-                    height: 40px;
-                    border-radius: 50%;
-                }
-            }
-        
-        .categorytext{
-            @include smallDevice {
-             font-size: 12px;
-              } 
-         }
     }
-    
+    .categoriesArrows{
+        display: flex;
+        gap: 4rem;
+    }
+    .categoryitems {
+        display: flex;
+        justify-content: space-between;
+        background: #EEEEFF;
+    }
+
+    .categorywrap {
+        display: grid;
+        margin-bottom: 5rem;
+    }
+
+    img {
+        width: 140px;
+        height: 140px;
+        border-radius: 50%;
+    }
+
+    .categorytext {
+        font-size: 12px;
+        text-align: center;
+    }
+
 
 }

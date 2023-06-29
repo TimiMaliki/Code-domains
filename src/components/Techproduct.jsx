@@ -15,7 +15,9 @@ const Techproduct = () => {
         <div className={tech.tech}>
             <div className={tech.techcategory}>
                 <Productheader title="Popular Product 2023" />
-                <Producttext text="" /> <><><><><></></></></></><FaArrowLeft></FaArrowLeft>  <FaArrowRight></FaArrowRight>
+                <div className={tech.techArrows}>
+                    <Producttext text="" />   <Producttext text="" /> <><><><><></></></></></><FaArrowLeft></FaArrowLeft>  <FaArrowRight></FaArrowRight>
+                </div>
             </div>
 
             <div className={tech.cartContainer}>
@@ -84,7 +86,7 @@ const Techproduct = () => {
                     <div className={tech.cartRateGrid}>
 
                         <div className={tech.cartStar}>
-                        <FaStar className={tech.star}></FaStar>   3.5
+                            <FaStar className={tech.star}></FaStar>   3.5
                         </div>
                         <div className={tech.line}></div>
                         <div className={tech.cartSold}>
@@ -108,7 +110,7 @@ const Techproduct = () => {
                     <div className={tech.cartRateGrid}>
 
                         <div className={tech.cartStar}>
-                           <FaStar className={tech.star}></FaStar>   4.3
+                            <FaStar className={tech.star}></FaStar>   4.3
                         </div>
                         <div className={tech.line}></div>
                         <div className={tech.cartSold}>
@@ -133,7 +135,7 @@ const Techproduct = () => {
                     <div className={tech.cartRateGrid}>
 
                         <div className={tech.cartStar}>
-                           <FaStar className={tech.star}></FaStar>   4.3
+                            <FaStar className={tech.star}></FaStar>   4.3
                         </div>
                         <div className={tech.line}></div>
                         <div className={tech.cartSold}>

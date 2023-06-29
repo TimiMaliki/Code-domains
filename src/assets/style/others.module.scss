@@ -1,79 +1,80 @@
 @import './media.scss';
 
 .others {
-    @include smallDevice {
-        height: 800px;
-        margin-top: 1rem;
-    }
-
+    margin-top: 4rem;
+    height: 800px;
 
     .othersProductImg {
-        @include smallDevice {
-            height: 200px;
-        }
-
-       
-        img {
-            @include smallDevice {
-                width: 315px;
-                height: 200px;
-                border-radius: 9px;
-            }
-        }
+        height: 200px;
+        display: flex;
+        justify-content: center;
     }
 
-    .othersProductDetails {
-        @include smallDevice {
-            height: 300px;
-            text-align: center;
-        }
-    }
 
-    .othersText {
-        @include smallDevice {
-            margin-top: 1rem;
-            text-align: center;
-        }
+    img {
+        width: 415px;
+        height: 200px;
+        border-radius: 9px;
     }
-    .startshopping{
-        @include smallDevice {
-            margin-top: 2rem;
-            width: 180px;
-            height: 45px;
-            margin-left: 4rem;
-            border-radius: 14px;
-            background: #000;
-            color: #fff;
-        }
-    }
+}
 
-    .startshoppingText{
-        @include smallDevice {
-            transform: translateY(10px);
-        }
-    }
-    .othersShoeOne{
-        @include smallDevice {
-            height: 300px;
-        }
-        & img{
-            @include smallDevice {
-                width: 315px;
-                height: 200px;
-                border-radius: 9px;
-            }
-        }
-    }
-    .othersShoeOneText{
-        @include smallDevice {
-            text-align: center;
-        }
-    }
-    .othersShoeOneImg{
-        @include smallDevice {
-            height: 150px;
-            margin-top: 1rem;
-        }
-    }
+.othersProductDetails {
+    height: 300px;
+    text-align: center;
+}
 
+.othersText {
+    margin-top: 1rem;
+    text-align: center;
+    width: 520px;
+    height: 80px;
+    margin-left: 29rem;
+
+    p {
+        font-size: 20px;
+    }
+}
+
+.startshopping {
+    margin-top: 2rem;
+    width: 180px;
+    height: 45px;
+    margin-left: 10rem;
+    border-radius: 14px;
+    background: #000;
+    color: #fff;
+}
+
+
+.startshoppingText {
+    transform: translateY(10px);
+}
+
+.othersShoeOne {
+    height: 300px;
+}
+
+img {
+
+    width: 315px;
+    height: 200px;
+    border-radius: 9px;
+}
+
+.othersShoeOneText {
+    margin-top: 1rem;
+    text-align: center;
+    width: 520px;
+    height: 80px;
+    margin-left: 29rem;
+    p {
+        font-size: 20px;
+    }
+}
+
+.othersShoeOneImg {
+    margin-top: 5rem;
+    height: 150px;
+    display: flex;
+    justify-content: center;
 }

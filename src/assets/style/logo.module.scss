@@ -1,24 +1,22 @@
 @import './media.scss';
 
-.logo{
-    @include smallDevice {
-        height: 600px;
-        margin-top: 7rem;
-    }
-        img {
-            @include smallDevice {
-                width: 50px;
-                height: 50px;
-                border-radius: 3rem;
-                margin-left: 8rem;
-                margin-bottom: 1rem;
-            }
-        }
+.logo {
+    height: 400px;
+    margin-top: 7rem;
+    text-align: center;
 
-    .logoText{
-        @include smallDevice {
-            display: grid;
-            text-align: center;
-        }
+    img {
+        width: 90px;
+        height: 90px;
+        border-radius: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    .logoText {
+        display: grid;
+        text-align: center;
+        width: 520px;
+        height: 80px;
+        margin-left: 29rem;
     }
 }

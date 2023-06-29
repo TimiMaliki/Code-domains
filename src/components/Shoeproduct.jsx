@@ -15,7 +15,9 @@ const Shoeproduct = () => {
     <div className={shoes.shoes}>
     <div className={shoes.shoesCategory}>
         <Productheader title="shoes Collection" />
-        <Producttext text=""/>   <Producttext text="" /> <><><><><></></></></></><FaArrowLeft></FaArrowLeft>  <FaArrowRight></FaArrowRight>
+        <div className={shoes.shoesArrows}>
+                    <Producttext text="" />   <Producttext text="" /> <><><><><></></></></></><FaArrowLeft></FaArrowLeft>  <FaArrowRight></FaArrowRight>
+                </div>
     </div>
 
 

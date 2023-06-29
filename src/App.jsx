@@ -22,11 +22,17 @@ function App() {
           <h2>Maliki</h2>
 
           <div className={index.Sub}>
+
             <input type="text" placeholder='Search Product' />
             <div className={index.subs}>
               <p>Categories</p>
             </div>
           </div>
+         
+          <div className={index.login}>
+              <button>log in</button>
+            </div>
+            
         </div>
 
         <div className={index.menu}>

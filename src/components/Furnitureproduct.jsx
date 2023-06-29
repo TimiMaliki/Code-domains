@@ -15,7 +15,10 @@ const Furnitureproduct = () => {
     <div className={furniture.furniture}>
     <div className={furniture.furnitureCategory}>
         <Productheader title="Furniture Collection" />
+        <div className={furniture.furnitureArrows}>
         <Producttext text=""/>   <Producttext text="" /> <><><><><></></></></></><FaArrowLeft></FaArrowLeft>  <FaArrowRight></FaArrowRight>
+        </div>
+       
     </div>
 
 
