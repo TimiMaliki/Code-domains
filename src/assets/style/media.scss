@@ -1,7 +1,7 @@
 $smallDevice:350px;
 $mediumDevice:700px;
-$largeDevice:1200px;
-$largerDevice:1500px;
+$largeDevice:1000px;
+// $largerDevice:1500px;
 
 @mixin smallDevice{
     @media(max-width:$smallDevice){
@@ -16,15 +16,15 @@ $largerDevice:1500px;
 }
 
 @mixin largeDevice{
-    @media(max-width:$largeDevice){
+    @media(min-width:$largeDevice){
         @content;
     }
 }
 
-@mixin largerDevice{
-    @media(max-width:$largerDevice){
-        @content;
-    }
-}
+// @mixin largerDevice{
+//     @media(max-width:$largerDevice){
+//         @content;
+//     }
+// }
 
 

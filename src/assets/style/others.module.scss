@@ -1,6 +1,30 @@
 @import './media.scss';
 
 .others {
+@include mediumDevice{
+    .othersProductImg {
+        height: 200px;
+        display: flex;
+        justify-content: center;
+    }
+    .othersProductDetails {
+        height: 300px;
+        text-align: center;
+        margin-left: -28rem;
+    }
+    .startshopping {
+        margin-left: 23rem;
+    }
+   
+    .othersShoeOneImg {
+        transform: translateY(-40px);
+        height: 150px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+    @include largeDevice{
     margin-top: 4rem;
     height: 800px;
 
@@ -64,11 +88,8 @@ img {
 .othersShoeOneText {
     margin-top: 1rem;
     text-align: center;
-    width: 520px;
-    height: 80px;
-    margin-left: 29rem;
     p {
-        font-size: 20px;
+        font-size: 30px;
     }
 }
 
@@ -77,4 +98,6 @@ img {
     height: 150px;
     display: flex;
     justify-content: center;
+}
+
 }

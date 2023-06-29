@@ -1,6 +1,44 @@
 @import './media.scss';
 
 .Subscribe {
+    @include mediumDevice{
+        height: 300px;
+        input {
+            width: 300px;
+            height: 50px;
+        }
+    
+        .SubText {
+            text-align: center;
+            h2 {
+                margin-bottom: 3rem;
+                font-size: 29px;
+                letter-spacing: 3px;
+            }
+        }
+    
+        .Sub {
+            display: flex;
+            margin-top: 3rem;
+            margin-left: 1rem;
+            justify-content: center;
+        }
+    
+        .subs {
+            width: 153px;
+            height: 52px;
+            background: purple;
+            color: #fff;
+            border-radius: 2px;
+            border: none;
+            cursor: pointer;
+    
+            p {
+                margin-top: 0.9rem;
+            }
+        }
+    }
+    @include largeDevice{
     margin-top: 28rem;
     height: 300px;
     place-content: center;
@@ -42,5 +80,6 @@
             margin-top: 0.9rem;
         }
     }
+}
 
 }

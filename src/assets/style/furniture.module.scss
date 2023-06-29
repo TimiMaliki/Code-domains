@@ -2,6 +2,48 @@
 
 
 .furniture {
+    @include mediumDevice {
+        height: 400px;
+
+        img {
+            width: 100px;
+            height: 100px;
+            border-radius: 9px;
+        }
+
+        .furnitureCategory{
+            display: flex;
+            justify-content: space-between;
+            padding: 50px 0px;
+        }
+
+        .cartContainer {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .cartDetailContainer {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .cartRateGrid {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .line {
+            width: 1px;
+            height: 12px;
+            background: #000;
+        }
+
+        .cartPrice {
+            margin-top: 1rem;
+            font-size: 17px;
+        }
+    }
+    @include largeDevice{
     height: 500px;
 
     h2 {
@@ -30,7 +72,6 @@
         background: #f3f3f3;
         border-radius: 9px;
         margin-top: 2rem;
-
         img {
             width: 270px;
             height: 270px;
@@ -77,6 +118,6 @@
         margin-top: 1rem;
         font-size: 17px;
     }
-
+    }
 
 }

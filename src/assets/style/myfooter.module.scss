@@ -2,7 +2,35 @@
 
 
 .footer {
-
+    @include mediumDevice{
+        background: #000;
+        color: #fff;
+        height: 390px;
+    
+        .gridOne {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            text-align: center;
+            letter-spacing: 1px;
+    
+            .brandAndLogos,
+            .link {
+                margin-top: 3rem;
+                line-height: 1.7rem;
+            }
+            ul {
+                list-style: none;
+            }
+        
+            a {
+                cursor: pointer;
+                text-decoration: none;
+                list-style: none;
+                color: #fff;
+            }
+        }
+    }
+@include largeDevice{
     background: #000;
     color: #fff;
     height: 390px;
@@ -30,5 +58,5 @@
         }
     }
 
-    
+}
 }
