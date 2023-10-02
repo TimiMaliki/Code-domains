@@ -4,7 +4,7 @@ import Star from "../assets/heroPics/Star-2.png"
 
 const HeroText = () => {
   return (
-    <div className="lg:w-1/2 h-full justify-center p-36 text-center items-center  ">
+    <div className="lg:w-full lg:h-full justify-center p-36 text-center items-center  ">
         <div className="relative mb-20">
         <img src={Star} alt="" className="ml-96 pl-12" />
         <h1 className="text-white text-3xl w-80">Hey There, I’m Timi</h1>

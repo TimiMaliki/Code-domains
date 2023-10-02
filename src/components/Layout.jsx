@@ -1,14 +1,14 @@
-import React from 'react'
-import HeroText from './HeroText'
-import HeroImg from './HeroImg'
+import React from "react";
+import HeroText from "./HeroText";
+import HeroImg from "./HeroImg";
 
 const Layout = () => {
   return (
-    <div className='Lg:grid-cols-2 bg-black w-full h-screen'>
-      <HeroText/>
-      <HeroImg/>
+    <div className=" lg:grid grid-cols-2  bg-black lg:w-full lg:h-screen">
+        <HeroText />
+        <HeroImg />
     </div>
-  )
-}
+  );
+};
 
-export default Layout
+export default Layout;
