@@ -5,7 +5,7 @@ const Header = () => {
   return (
 
     <nav className="w-full bg-black justify-between text-center items-center p-8 sticky">
-      <h1>Maliki</h1>
+      <h1 className="text-xl">Maliki</h1>
 
       <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
         <span></span>
