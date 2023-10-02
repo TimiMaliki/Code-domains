@@ -14,7 +14,7 @@ const About = () => {
         </p>
             
       <button className=" place-content-center p-8 text-center hover:bg-blue-300 rounded-full bg-yellow-300 w-full h-12">
-        <p className="-mt-2">Download CV</p>
+        <p className="-mt-4">Download CV</p>
       </button>
       </div>
   
