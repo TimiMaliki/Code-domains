@@ -15,7 +15,7 @@ const HeroImg = () => {
         <img src={Card} alt="" width={150} height={100} style={{marginTop:"-26rem"}}/>
         <img src={Card1} alt="" width={150} height={100} style={{marginTop:"10rem" , marginLeft:"2rem"}}/>
         <img src={Star1} alt="" style={{marginLeft:"16rem", marginTop:"2rem"}}/>
-        <img src={Card3} alt="" width={150} height={80} style={{marginLeft:"25rem", marginTop:"8rem"}}/>
+        <img src={Card3} alt="" width={150} height={80} style={{marginLeft:"25rem", marginTop:"-8rem"}}/>
     </div>
   )
 }
