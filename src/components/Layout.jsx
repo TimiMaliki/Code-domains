@@ -4,7 +4,7 @@ import HeroImg from './HeroImg'
 
 const Layout = () => {
   return (
-    <div className='grid-cols-2 bg-black w-full h-screen'>
+    <div className='Lg:grid-cols-2 bg-black w-full h-screen'>
       <HeroText/>
       <HeroImg/>
     </div>
