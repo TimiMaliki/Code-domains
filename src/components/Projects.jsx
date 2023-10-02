@@ -43,7 +43,7 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="w-full h-full flex justify-center gap-2 py-16 relative mt-8 group cursor-pointer">
+      <div className="w-full h-full flex justify-center gap-2 py-16  mt-8 group cursor-pointer">
         <FaArrowAltCircleLeft
           style={{ color: "white", marginTop: "9rem", fontSize: "2rem" }}
           className="hidden group-hover:block"
@@ -52,13 +52,13 @@ const Projects = () => {
         <div
           style={{
             backgroundImage: `url(${slides[currentIndex].Img}`,
-            backgroundColor: "white",
+            backgroundColor: "#000",
             backgroundPosition: "center",
             backgroundRepeat: "no-repeat",
             objectFit: "cover",
             width: "900px",
           }}
-          className=" w-full h-96 bg-no-repeat  bg-center bg-contain rounded-2xl duration-200"
+          className=" w-full h-96 bg-no-repeat  bg-center bg-contain rounded-lg  duration-200"
         ></div>
         <FaArrowAltCircleRight
           style={{ color: "white", marginTop: "9rem", fontSize: "2rem" }}
