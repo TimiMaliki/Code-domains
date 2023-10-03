@@ -14,7 +14,7 @@ function App() {
       <Header />
       <Layout />
       <Logo/>
-      {/* <Projects /> */}
+      <Projects />
       {/* <About/>
       <Qualification /> */}
       {/* <Testimony/>

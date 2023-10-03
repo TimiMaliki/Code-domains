@@ -35,10 +35,10 @@ const Projects = () => {
     setCurrentIndex(newIndex)
   }
   return (
-    <div className="lg:w-full lg:h-full p-28 bg-black">
+    <div className="lg:w-full lg:h-full lg:p-28 bg-black">
       <div className="lg:flex justify-center text-center ">
-        <div className="text-white text-3xl p-28">
-          <h1 className="w-72">All Creative Works Selected Project</h1>
+        <div className="text-white text-3xl lg:p-28">
+          <h1 className="lg:w-72 p-8">All Creative Works Selected Project</h1>
         </div>
         <div className="text-white text-xl mt-24">
           A tristique nulla faucibus in quam metus, eget. Id eleifend arcuA
@@ -48,10 +48,10 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="w-full h-full flex justify-center gap-2 py-16  mt-8 group cursor-pointer">
+      <div className="lg:w-full lg:h-full flex justify-center gap-2 py-16  lg:mt-8 group cursor-pointer">
         <FaArrowAltCircleLeft
-          style={{ color: "white", marginTop: "9rem", fontSize: "2rem" }}
-          className="hidden group-hover:block"
+          style={{ color: "white", fontSize: "2rem", marginTop:"9rem"}}
+          className="hidden group-hover:block "
           onClick={prevSlide}
         />
         <div
@@ -66,8 +66,8 @@ const Projects = () => {
           className=" w-full h-96 bg-no-repeat  bg-center bg-contain rounded-lg  duration-200"
         ></div>
         <FaArrowAltCircleRight
-          style={{ color: "white", marginTop: "9rem", fontSize: "2rem" }}
-          className="hidden group-hover:block"
+          style={{ color: "white", fontSize: "2rem", marginTop:"9rem" }}
+          className="hidden group-hover:block "
           onClick={nextSlide}
         />
       </div>
