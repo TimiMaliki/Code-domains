@@ -6,6 +6,7 @@ import Projects from "./components/Projects";
 import About from "./components/About";
 import Qualification from "./components/Qualification";
 import Testimony from "./components/Testimony";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <About/>
       <Qualification />
       <Testimony />
+      <Footer />
     </div>
   );
 }
