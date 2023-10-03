@@ -16,9 +16,9 @@ const Testimony = () => {
             <img src={Rectangle} alt="" style={{width:"100%" , height:"294px" , borderRadius:"13px" , objectFit:"cover"}}/>
             </div>
         </div>
-        <div className='lg:w-96 h-56 lg:h-44 relative mt-20'>
+        <div className='lg:w-96 h-96 lg:h-44 relative mt-20'>
             <div className='text-white absolute'>
-            <h2 className='text-white mb-20'>
+            <h2 className='text-white lg:mb-20'>
             Ac in enim sem elementum. Nisi, 
             est a non libero interdum scelerisque neque, penatibus. Vitae, aliquam venenatis ac porta et. Et eu, interdum elit donec sit 
             sapien mi. Ipsum neque nec pellentesque nullam habitant velit, in.
