@@ -5,6 +5,7 @@ import Logo from "./components/Logo";
 import Projects from "./components/Projects";
 import About from "./components/About";
 import Qualification from "./components/Qualification";
+import Testimony from "./components/Testimony";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Projects />
       <About/>
       <Qualification />
+      <Testimony />
     </div>
   );
 }
