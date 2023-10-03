@@ -19,7 +19,7 @@ const About = () => {
       </div>
   
 
-<div className="flex justify-between w-full  gap-28 h-full mt-14 mb-4"> 
+<div className="lg:flex justify-between w-full  gap-28 h-full mt-14 mb-4"> 
 <div className="text-white text-3xl cursor-pointer"><p className="hover:text-yellow-200 hover:border-b-2 hover:border-b-yellow-500 duration-200">Skills</p></div>
 <div className="text-white text-3xl cursor-pointer"><p className="hover:text-yellow-200 hover:border-b-2 hover:border-b-yellow-500 duration-200">Experience</p></div>
 <div className="text-white text-3xl cursor-pointer"><p className="hover:text-yellow-200 hover:border-b-2 hover:border-b-yellow-500 duration-200">Education</p></div>
