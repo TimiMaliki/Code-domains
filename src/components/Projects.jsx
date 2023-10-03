@@ -51,7 +51,7 @@ const Projects = () => {
       <div className="lg:w-full lg:h-full flex justify-center gap-2 py-16  lg:mt-8 group cursor-pointer">
         <FaArrowAltCircleLeft
           style={{ color: "white", fontSize: "2rem", marginTop:"9rem"}}
-          className="hidden group-hover:block "
+          className="lg:hidden group-hover:block "
           onClick={prevSlide}
         />
         <div
@@ -67,7 +67,7 @@ const Projects = () => {
         ></div>
         <FaArrowAltCircleRight
           style={{ color: "white", fontSize: "2rem", marginTop:"9rem" }}
-          className="hidden group-hover:block "
+          className="lg:hidden group-hover:block "
           onClick={nextSlide}
         />
       </div>
