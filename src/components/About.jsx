@@ -13,7 +13,7 @@ const About = () => {
           consectmetus, eget. Id eleifend arcu consectetur nunc.
         </p>
             
-      <button className=" place-content-center p-8 text-center hover:bg-blue-300 rounded-full bg-yellow-300  lg:w-full lg:h-12">
+      <button className=" place-content-center p-8 text-center hover:bg-blue-300 rounded-full bg-yellow-300  lg:ml-96  lg:w-64 lg:h-12">
         <p className="-mt-4">Download CV</p>
       </button>
       </div>
