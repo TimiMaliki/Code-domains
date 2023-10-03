@@ -8,7 +8,7 @@ const HeroText = () => {
         <div className="relative mb-20">
         <img src={Star} alt="" className="ml-96 pl-12" />
         <h1 className="text-white text-3xl w-80">Hey There, I’m Timi</h1>
-        <img src={Star} alt="" className="-ml-14 pl-12 mb-0"  />
+        <img src={Star} alt="" className="lg:-ml-14 pl-12 mb-0"  />
         <div className="absolute">
             <img src={Ellipse} alt="" className="-mt-20"/>
         </div>

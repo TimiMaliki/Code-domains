@@ -1,18 +1,23 @@
 import React, { useState } from "react";
-import Vector from "../assets/heroPics/Layer0-1.png";
-import Sun from "../assets/portfolioPics/sun.jpg";
-import dope from "../assets/portfolioPics/dope.png";
+ import ecom1 from "../assets/portfolioPics/e-com1.png"
+ import ecom2 from "../assets/portfolioPics/e-com2.png"
+ import ecom3 from "../assets/portfolioPics/e-com3.png"
+ import ecom4 from "../assets/portfolioPics/e-com4.png"
+
 import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from "react-icons/fa";
 
 const Projects = () => {
   const slides = [
     {
-      Img: Vector,
+      Img: ecom1,
     },{
-      Img:Sun,
+      Img:ecom2,
     },
     {
-      Img:dope,
+      Img:ecom3,
+    },
+    {
+      Img:ecom4,
     },
   ];
 
