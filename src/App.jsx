@@ -13,7 +13,7 @@ function App() {
     <div>
       <Header />
       <Layout />
-      {/* <Logo/> */}
+      <Logo/>
       {/* <Projects /> */}
       {/* <About/>
       <Qualification /> */}
