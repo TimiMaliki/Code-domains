@@ -17,8 +17,8 @@ function App() {
       <Projects />
      <About/>
        <Qualification />
-      {/* <Testimony/>
-      <Footer/> */}
+      <Testimony/> 
+     {/*  <Footer/> */}
     </div>
   );
 }
