@@ -3,11 +3,11 @@ import React from "react";
 const About = () => {
   return (
     <div className="grid w-full  h-screen place-content-center  bg-[#23252A]">
-      <div className="w-96 text-center  h-12 mt-12 ml-20">
+      <div className="w-96 text-center  h-12 mt-12 md:ml-20">
         <h2 className="text-white text-3xl text-center">About ME</h2>
       </div>
 
-      <div className="w-96  h-48 mt-14 grid place-content-center ml-20 text-white text-xl text-center">
+      <div className="w-96  h-48 mt-14 grid place-content-center md:ml-20 text-white text-xl text-center">
         <p className="mb-14">
           A tristique nulla faucibus in quam metus, eget. Id eleifend arcu
           consectmetus, eget. Id eleifend arcu consectetur nunc.

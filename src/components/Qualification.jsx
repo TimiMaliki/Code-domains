@@ -4,33 +4,34 @@ const Qualification = () => {
   return (
     <div className="">
      
-        <div className="flex justify-center gap-44 text-start w-full  h-full  bg-[#23252A]">
+        <div className="flex justify-center gap-44 text-start w-full  h-full  bg-[#23252A]" style={{padding:"0px 320px"}}>
         <div className="grid place-content-start  text-white ">
         <div className="flex date">2034-2069</div>
         <div>
-          <h2>Lorem Ipsum</h2>
+          <h2 className="">Lorem Ipsum</h2>
         </div>
       </div>
 
       <div className="text-white job"><h2 className="text-xl">Senior <br /> Developer</h2></div>
-       <div className="education w-96  h-48 text-white"><h2>
+       <div className="education  text-white"><h2 style={{width:"190px" , height:"170px"}}>
        A tristique nulla faucibus in quam metus, eget. 
-       Id eleifend arcu consectmetus, eget. Id eleifend arcu consectetur nunc.
+        Id eleifend arcu consectmetus, eget. 
+       Id eleifend arcu consectetur nunc.
         </h2></div>
         </div>
 
      {/* next section */}
 
-     <div className="flex justify-center gap-44 text-start w-full  h-full  bg-[#23252A]">
+     <div className="flex justify-center gap-44 text-start w-full  h-full  bg-[#23252A]" style={{padding:"0px 320px"}}>
         <div className="grid place-content-start  text-white">
-        <div className="flex date">2034-2069</div>
+        <div className="flex date ">2034-2069</div>
         <div>
-          <h2>Lorem Ipsum</h2>
+          <h2 className="">Lorem Ipsum</h2>
         </div>
       </div>
 
       <div className="text-white job"><h2 className="text-xl">Senior <br /> Developer</h2></div>
-       <div className="education w-96  h-48 text-white"><h2>
+       <div className="education text-white"><h2 style={{width:"190px" , height:"170px"}}>
        A tristique nulla faucibus in quam metus, eget. 
        Id eleifend arcu consectmetus, eget. Id eleifend arcu consectetur nunc.
         </h2></div>
@@ -38,16 +39,16 @@ const Qualification = () => {
 
            {/* next section */}
 
-           <div className="flex justify-center gap-44 text-start w-full  h-full  bg-[#23252A]">
+           <div className="flex justify-center gap-44 text-start w-full  h-full  bg-[#23252A]" style={{padding:"0px 320px"}}>
         <div className="grid place-content-start  text-white">
-        <div className="flex date">2034-2069</div>
+        <div className="flex date ">2034-2069</div>
         <div>
-          <h2>Lorem Ipsum</h2>
+          <h2 className="">Lorem Ipsum</h2>
         </div>
       </div>
 
       <div className="text-white job"><h2 className="text-xl">Senior <br /> Developer</h2></div>
-       <div className="education w-96  h-48 text-white"><h2>
+       <div className="education text-white"><h2 style={{width:"190px" , height:"170px"}}>
        A tristique nulla faucibus in quam metus, eget. 
        Id eleifend arcu consectmetus, eget. Id eleifend arcu consectetur nunc.
         </h2></div>
