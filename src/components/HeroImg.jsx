@@ -9,7 +9,7 @@ import Star1 from "../assets/heroPics/Star-1.png";
 const HeroImg = () => {
   return (
     <div className="lg:w-full lg:h-full p-8">
-      <img src={Star1} alt=""  className=' ml-4 lg:ml-80 mt-4 lg:-mt-8 w-10 h-10'/>
+      <img src={Star1} alt=""  className=' ml-4 lg:ml-80  lg:-mt-8 w-10 h-10'/>
       <img src={Vector} alt="" className=" -mt-16 w-20 h-12" />
       <img
         src={Layer}
