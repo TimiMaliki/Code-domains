@@ -1,8 +1,10 @@
 import React from "react";
+import Qualification from "../Qualifiaction/Qualification";
 
 const About = () => {
   return (
     <div className="grid w-full text-center h-screen place-content-center  bg-[#23252A]">
+      
       <div className=" text-center ">
         <h2 className="text-white text-3xl text-center mt-8">About ME</h2>
       </div>
@@ -25,6 +27,7 @@ const About = () => {
 <div className="text-white text-3xl cursor-pointer"><p className="hover:text-yellow-200 hover:border-b-2 hover:border-b-yellow-500 duration-200">Education</p></div>
 </div>
 
+<Qualification />
     </div>
   );
 };

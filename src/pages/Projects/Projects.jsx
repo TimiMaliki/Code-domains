@@ -1,8 +1,8 @@
 import React, { useState } from "react";
- import ecom1 from "../assets/portfolioPics/e-com1.png"
- import ecom2 from "../assets/portfolioPics/e-com2.png"
- import ecom3 from "../assets/portfolioPics/e-com3.png"
- import ecom4 from "../assets/portfolioPics/e-com4.png"
+ import ecom1 from "../../assets/portfolioPics/e-com1.png"
+ import ecom2 from "../../assets/portfolioPics/e-com2.png"
+ import ecom3 from "../../assets/portfolioPics/e-com3.png"
+ import ecom4 from "../../assets/portfolioPics/e-com4.png"
 
 import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from "react-icons/fa";
 

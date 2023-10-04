@@ -1,6 +1,6 @@
 import React from "react";
-import Ellipse from "../assets/heroPics/Ellipse-64.png"
-import Star from "../assets/heroPics/Star-2.png"
+import Ellipse from "../../assets/heroPics/Ellipse-64.png"
+import Star from "../../assets/heroPics/Star-2.png"
 
 const HeroText = () => {
   return (

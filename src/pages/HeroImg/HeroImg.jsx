@@ -1,10 +1,9 @@
 import React from "react";
-import Layer from "../assets/heroPics/Layer0-1.png";
-import Vector from "../assets/heroPics/Vector-2.png";
-import Card from "../assets/heroPics/Card-2.png";
-import Card1 from "../assets/heroPics/Card-1.png";
-import Card3 from "../assets/heroPics/Card-3.png";
-import Star1 from "../assets/heroPics/Star-1.png";
+import Layer from "../../assets/heroPics/Layer0-1.png";
+import Vector from "../../assets/heroPics/Vector-2.png";
+import Card1 from "../../assets/heroPics/Card-1.png";
+import Card3 from "../../assets/heroPics/Card-3.png";
+import Star1 from "../../assets/heroPics/Star-1.png";
 
 const HeroImg = () => {
   return (

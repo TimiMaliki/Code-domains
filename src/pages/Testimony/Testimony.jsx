@@ -1,6 +1,6 @@
 import React from 'react'
-import Rectangle from "../assets/testimonyPics/Rectangle-9.png"
-import quest from "../assets/testimonyPics/q.png"
+import Rectangle from "../../assets/testimonyPics/Rectangle-9.png"
+import quest from "../../assets/testimonyPics/q.png"
 
 
 const Testimony = () => {

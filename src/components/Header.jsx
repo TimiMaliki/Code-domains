@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 const Header = () => {
 
     const [menuOpen, setMenuOpen] = useState(false);
@@ -15,19 +16,19 @@ const Header = () => {
 
       <ul className={menuOpen ? "open" : ""}>
         <li className="font-sans text-base">
-          <a href="">Home</a>
+     <Link to="/">Home</Link>
         </li>
         <li className="font-sans text-base">
-          <a href="">Portfolio</a>
+         <Link to="/projects">Portfolio</Link>
         </li>
         <li className="font-sans text-base">
-          <a href="">About Us</a>
+         <Link to="/about">About Us</Link>
         </li>
         <li className="font-sans text-base">
-          <a href="">Testimonial</a>
+        <Link to="/testimony">Testimonial</Link>
         </li>
         <li className="font-sans text-base">
-          <a href="">contact</a>
+        <Link to="">Contact</Link>
         </li>
       </ul>
     </nav>
@@ -36,48 +37,3 @@ const Header = () => {
 
 export default Header;
 
-// const Navbar = () => {
-//   const [menuOpen, setMenuOpen] = useState(false);
-
-//   return (
-//     <Flex
-//       as="nav"
-//       p="20px"
-//       alignItems="center"
-//       textAlign="center"
-//       justify="space-between"
-//       position="sticky"
-//       zIndex="7"
-//     >
-//       <Heading as="h1" cursor="pointer">
-//         EaziExchange
-//       </Heading>
-
-// <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
-//   <span></span>
-//   <span></span>
-//   <span></span>
-// </div>
-
-{
-  /* <ul className={menuOpen ? "open" : ""}>
-        <li>
-          <a href="">About Us</a>
-        </li>
-        <li>
-          <a href="">Service</a>
-        </li>
-        <li>
-          <a href="">FAQs</a>
-        </li>
-      </ul>
-      
-
-  */
-}
-
-//     </Flex>
-//   );
-// };
-
-// export default Navbar;
