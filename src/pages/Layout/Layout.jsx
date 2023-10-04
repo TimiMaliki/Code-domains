@@ -11,7 +11,6 @@ const Layout = () => {
         <div className="grid place-content-center">
         <HeroImg />
         </div>
-      
     </div>
   );
 };

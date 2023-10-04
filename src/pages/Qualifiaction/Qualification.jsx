@@ -4,7 +4,7 @@ const Qualification = () => {
   return (
     <div className="">
      
-        <div className="lg:flex lg:justify-center gap-44 text-start w-full  px-8 lg:px-44  -mt-32 py-8 bg-[#23252A]" >
+        <div className="lg:flex lg:justify-center gap-44 text-start w-full  p-8 lg:px-44  py-8 bg-[#23252A]" >
 
         <div className="grid place-content-start  text-white mb-4">
         <div className="flex date  mb-4">2034-2069</div>

@@ -3,10 +3,10 @@ import Qualification from "../Qualifiaction/Qualification";
 
 const About = () => {
   return (
-    <div className="grid w-full text-center h-screen place-content-center  bg-[#23252A]">
+    <div className="grid w-full text-center h-full place-content-center  bg-[#23252A]">
       
       <div className=" text-center ">
-        <h2 className="text-white text-3xl text-center mt-8">About ME</h2>
+        <h2 className="text-white text-3xl   text-center mt-8">About ME</h2>
       </div>
 
       <div className="   h-full lg:mt-14 lg:grid lg:place-content-center lg:ml-20 text-white text-xl text-center">
@@ -21,7 +21,7 @@ const About = () => {
       </div>
   
 
-<div className="lg:flex justify-between w-1/2 lg:w-full  px-8 lg:gap-28 h-full  mt-20 lg:mt-32 lg:mt-14 mb-32"> 
+<div className="lg:flex lg:justify-between w-1/2 lg:w-full  px-8 lg:gap-28 h-full  mt-20 lg:mt-32 lg:mt-14 mb-32"> 
 <div className="text-white text-3xl cursor-pointer"><p className="hover:text-yellow-200 hover:border-b-2 hover:border-b-yellow-500 duration-200">Skills</p></div>
 <div className="text-white text-3xl cursor-pointer"><p className="hover:text-yellow-200 hover:border-b-2 hover:border-b-yellow-500 duration-200">Experience</p></div>
 <div className="text-white text-3xl cursor-pointer"><p className="hover:text-yellow-200 hover:border-b-2 hover:border-b-yellow-500 duration-200">Education</p></div>
