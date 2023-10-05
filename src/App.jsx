@@ -6,7 +6,7 @@ function App() {
   return (
 
     <BrowserRouter>
-    <Router basename="/personal-portfolio-website"/>
+    <Router />
     </BrowserRouter>
   
   );
