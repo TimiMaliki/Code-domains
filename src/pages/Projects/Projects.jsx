@@ -41,10 +41,7 @@ const Projects = () => {
           <h1 className="lg:w-72 p-8">All Creative Works Selected Project</h1>
         </div>
         <div className="text-white text-xl mt-24">
-          A tristique nulla faucibus in quam metus, eget. Id eleifend arcuA
-          tristique nulla faucibus in quam metus, eget. Id eleifend arcu
-          consectmetus, eget. Id eleifend arcu consectetur nunc. consectmetus,
-          eget. Id eleifend arcu consectetur nunc.
+        Regarded below are the extensive array of creative works I've diligently crafted and developed throughout my professional journey as a full stack developer
         </div>
       </div>
 
