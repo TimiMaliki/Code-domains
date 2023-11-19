@@ -19,12 +19,9 @@ const Testimony = () => {
         <div className='lg:w-96 h-96 lg:h-44 relative mt-20'>
             <div className='text-white absolute'>
             <h2 className='text-white lg:mb-20'>
-            Ac in enim sem elementum. Nisi, 
-            est a non libero interdum scelerisque neque, penatibus. Vitae, aliquam venenatis ac porta et. Et eu, interdum elit donec sit 
-            sapien mi. Ipsum neque nec pellentesque nullam habitant velit, in.
+            "His dedication to artistry in coding is truly inspiring. As a full stack developer, he seamlessly weaves creativity into his projects, making them not just functional but visually stunning. His commitment to open source is evident in the quality of his work, a testament to his passion for excellence."
             </h2>
-            <h3 className='text-white mb-4'>Katrin Bousan</h3>
-            <h4 className='text-white'>Lorem Ipsum</h4>
+            <h3 className='text-white mb-4'>- Timi Maliki</h3>
             </div>
             <img src={quest} alt="" style={{marginTop:"-4rem" ,}}/>
         </div>

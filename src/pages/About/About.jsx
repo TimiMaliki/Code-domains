@@ -11,11 +11,10 @@ const About = () => {
 
       <div className="h-full lg:mt-14 lg:grid lg:place-content-center lg:ml-20 text-white text-xl text-center">
         <p className="mb-14">
-          A tristique nulla faucibus in quam metus, eget. Id eleifend arcu
-          consectmetus, eget. Id eleifend arcu consectetur nunc.
+        A lover of art and anything good, a full stack developer and an Open source lover
         </p>
             
-      <button className=" place-content-center p-8 text-center hover:bg-blue-300 rounded-full bg-yellow-300  lg:ml-96  lg:w-64 lg:h-12">
+      <button className=" place-content-center p-12 text-center hover:bg-blue-300 rounded-full bg-yellow-300  lg:ml-[10.5rem]  lg:w-64 lg:h-12">
         <p className="-mt-4">Download CV</p>
       </button>
       </div>
