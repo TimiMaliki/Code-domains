@@ -1,5 +1,5 @@
 import React from "react";
-import Layer from "../../assets/heroPics/Layer0-1.png";
+import Layer from "../../assets/heroPics/uchewa.png";
 import Vector from "../../assets/heroPics/Vector-2.png";
 import Card1 from "../../assets/heroPics/Card-1.png";
 import Card3 from "../../assets/heroPics/Card-3.png";
