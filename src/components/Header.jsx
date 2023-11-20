@@ -1,7 +1,13 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import ReactGA from "react-ga"
+import AppConfig from "../../App.config"
+ReactGA.initialize(AppConfig.Google.GA_MEASUREMENT_ID )
 const Header = () => {
 
+  useEffect(() => {
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  })
     const [menuOpen, setMenuOpen] = useState(false);
   return (
 
@@ -35,5 +41,5 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default withRouter(Header);
 
