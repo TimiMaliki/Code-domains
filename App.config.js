@@ -1,4 +1,6 @@
 
 const Google = {
-    GA_MEASUREMENT_ID : process.env.REACT_APP_MEASUREMENT_ID
+    GA_MEASUREMENT_ID : import.meta.env.VITE_APP_MEASUREMENT_ID
   }
+
+  export default Google
