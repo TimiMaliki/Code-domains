@@ -35,6 +35,9 @@ const Header = () => {
         <li className="font-sans text-base">
         <Link to="/contact">Contact</Link>
         </li>
+        <li className="font-sans text-base">
+        <Link to="/blog">Blog</Link>
+        </li>
       </ul>
     </nav>
   );

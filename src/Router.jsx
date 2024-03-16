@@ -5,6 +5,7 @@ import Projects from "./pages/Projects/Projects"
 import About from "./pages/About/About"
 import Testimony from "./pages/Testimony/Testimony"
 import Contact from "./pages/Contact/Contact"
+import BlogHero from "./pages/Blog/BlogHero";
 
 const Router = () => {
   return (
@@ -16,6 +17,7 @@ const Router = () => {
     <Route path="/about" element={<About />}/>
     <Route path="/testimony" element={<Testimony />}/>
     <Route path="/contact" element={<Contact />}/>
+    <Route path="/blog" element={<BlogHero />}/>
     </Route>
    </Routes>
 
