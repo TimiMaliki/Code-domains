@@ -3,7 +3,7 @@ import Image from "../../assets/Contact/Image.png";
 
 const Contact = () => {
   return (
-    <div className="lg:grid grid-cols-2 p-44 py-24 bg-black lg:w-full lg:h-screen">
+    <div className="lg:grid grid-cols-2 md:p-44 py-24 bg-black lg:w-full lg:h-screen">
       <div>
         <img src={Image} alt="" className="px-14" />
       </div>
