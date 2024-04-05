@@ -4,31 +4,23 @@ import words from "../../assets/blogpics/fewWords.png";
 import ghost from "../../assets/blogpics/ghost.png";
 import { Link } from "react-router-dom";
 import { data } from "autoprefixer";
+import { fetchData } from "../../api/blog.api";
 
 // key = e2bc78adb3c94ceeb6341e4cc0193c61
-//https://newsapi.org/v2/everything?apiKey=e2bc78adb3c94ceeb6341e4cc0193c61&id=4&qInTitle=%22Xiaomi%20SU7%20:%20la%20voiture%20%C3%A9lectrique%20d%C3%A9marre%20ses%20ventes%20en%20trombe%22
-
-;
 
 const Blogs = () => {
   const [blogs, setBlogs] = useState([]);
   const [loading, setIsLoading] = useState(true);
 
-
   const snakeConverter = (title) => {
-    let myStr = title.split(/(?=[A-Z])/);
-    let snakeCaseString = myStr.join('_').toLowerCase();
-    console.log(snakeCaseString)
-    return snakeCaseString
-  }
- 
+    let myStr = title.split(" ");
+    let snakeCaseString = myStr.join("_");
+    console.log(snakeCaseString);
+    return snakeCaseString;
+  };
 
-
-
-  const fetchData = () => {
-    fetch(
-      "https://newsapi.org/v2/everything?q=tesla&from=2024-04-03&sortBy=publishedAt&apiKey=e2bc78adb3c94ceeb6341e4cc0193c61" 
-    )
+  useEffect(() => {
+    fetchData()
       .then((res) => {
         return res.json();
       })
@@ -38,12 +30,8 @@ const Blogs = () => {
         setIsLoading(false);
       })
       .catch((error) => {
-          console.log(error.message)
-      })
-  };
-
-  useEffect(() => {
-    fetchData();
+        console.log(error.message);
+      });
   }, []);
 
   return (
