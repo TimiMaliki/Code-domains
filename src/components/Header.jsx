@@ -38,9 +38,6 @@ const Header = () => {
         <li className="font-sans text-base">
         <Link to="/blog">Blog</Link>
         </li>
-        <li className="font-sans text-base">
-        <Link to="/create">Create</Link>
-        </li>
       </ul>
     </nav>
   );

@@ -5,7 +5,6 @@ import Projects from "./pages/Projects/Projects"
 import About from "./pages/About/About"
 import Testimony from "./pages/Testimony/Testimony"
 import Contact from "./pages/Contact/Contact"
-import Create from "./pages/CreateBlog/Create";
 import Blogs from "./pages/Blog";
 import ViewBlog from "./pages/Blog/BlogArticle";
 
@@ -22,7 +21,6 @@ const Router = () => {
     <Route path="/contact" element={<Contact />}/>
     <Route path="/blog" element={<Blogs />}/>
     <Route path="/blog/:id" element={<ViewBlog/>}/>
-    <Route path="/create" element={<Create />}/>
    
     </Route>
    </Routes>
